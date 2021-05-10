@@ -10,6 +10,7 @@ This nightowl brings ease to your eyes in the night, without ruining Discord's d
 * Eases your eyes, while looking nice too.
 
 # Disadvantages
+* WIP right now
 * Pretty messed up (right now)
 * Made by a guy that only knows basic (s)css and only uses Vizality :p
 
