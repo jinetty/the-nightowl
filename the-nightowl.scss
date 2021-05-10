@@ -18,7 +18,9 @@ $amogus: false;
     --bgcolor: black;
     --bgcolor2: rgb(15, 15, 15);
     --bgcolor3: rgb(26, 26, 26);
-}
+    --background-primary: black;
+    --background-secondary: rgb(15, 15, 15);
+    }
 
 @if $amogus {
   	.sidebarRegionScroller-3MXcoP {
@@ -31,7 +33,86 @@ $amogus: false;
 	}
 }
 
+// RECODE: UNDER CONSTRUCTION
+.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih { background-color: var(--bgcolor2);}
+.form-2fGMdU { background-color: var(--bgcolor2) !important;}
+
+.mainContent-2h-GEV::before { display: none; }
+.icon-3N9Bhy { display: none; }
+.guildSeparator-33mFX6 { display: none;}
+.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.twitterLink-3NsWMp.links-3Ldd4A { display: none;}
+.unreadBottom-1_LF_w.unread-15xhX5.container-35XQWE { display: none;}
+.form-2fGMdU::before { display: none;}
+.anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.statusLink-gFXhrL.links-3Ldd4A { display: none; }
+.content-3YMskv::before { display: none ;}
+.title-30qZAO.container-2ax-kl { background-color: var(--bgcolor) !important;}
+.peopleListItem-2nzedh { background-color: var(--bgcolor);}
+.children-19S4PO::after { display: none; }
+.activityUserPopout-2yItg2.activity-11LB_k { background-color: var(--bgcolor3);}
+.topSectionPlaying-1J5E4n { background-color: var(--bgcolor3);}
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 { background-color: var(--bgcolor3);}
+.member-3-YXUe { background-color: var(--bgcolor);}
+.layout-2DM8Md { fill: transparent;}
+.inner-3nWsbo { background-color: var(--bgcolor3); margin: 0px !important;}
+.footer-3mqk7D.hasSpoilers-1IRtQC { background-color: var(--bgcolor3);}
+.content-1LAB8Z.thin-1ybCId.scrollerBase-289Jih { background-color: var(--bgcolor3);}
+.paymentRow-2e7VM6.bottomDivider-1K9Gao { background-color: var(--bgcolor3);}
+.peopleListItem-2nzedh {background-color: var(--bgcolor);}
+.container-1D34oG { background-color: var(--bgcolor) !important; }
+.vz-sticky.vz-addons-list-sticky-bar { background-color: var(--bgcolor3);}
+.vz-addon-card-content { background-color: var(--bgcolor3);}
+.scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih { background-color: var(--bgcolor2);}
+.scroller-2hZ97C.thin-1ybCId.scrollerBase-289Jih { background-color: var(--bgcolor3);} 
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.paymentRowHeader-2sfDdN { background-color: var(--bgcolor3);}
+.vz-updater-top-section-header { background-color: var(--bgcolor3);}
+.emptyChannelIcon-cc932w { background-color: var(--bgcolor3);}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.emojiSection-3Fb9ix { background-color: var(--bgcolor2);}
+.invite-18yqGF.container-o3RxSG { background-color: var(--bgcolor2);}                                      
+.section-2gLsgF { background-color: var(--bgcolor3);}
+.description-1RsfgZ { background-color: var(--bgcolor2);}
+.nowPlayingColumn-2sl4cE {background-color: var(--bgcolor);}
+.fieldList-21DyL8 { background-color: var(--bgcolor3);}
+.footer-1fjuF6 { background-color: var(--bgcolor3) !important;}
+.form-2fGMdU { background-color: var(--bgcolor) !important; }
+.vz-wave-divider-svg-path { fill: var(--bgcolor)}
+.circleIconButton-1QV--U { background-color: var(--bgcolor2);}
+.vz-dashboard-section.vz-dashboard-home-section-features { background-color: var(--bgcolor);}
+.codeRedemptionRedirect-1wVR4b.card-3Qj_Yx { background-color: var(--bgcolor3);}
+.popout_29539 { background-color: var(--bgcolor) !important;}
+.scroller-1d5FgU.vz-dashboard-scroller.auto-Ge5KZx.scrollerBase-289Jih { background-color: var(--bgcolor);}
+.content-1LAB8Z.container-1_ClKi.content-s2SEQO.thin-1ybCId.scrollerBase-289Jih { background-color: var(--bgcolor3);}
+.members-1998pB {
+  &, & > div {
+    background: black;
+  }
+}
+
+
+/* --bgcolor2 */
+.feature-2w65J5.featureEmoji-3pTtR2 { background-color: var(--bgcolor2);}
+.feature-2w65J5.featureBadge-3ZA-Ca { background-color: var(--bgcolor2);}
+.feature-2w65J5.featureProfile-tTo0C- { background-color: var(--bgcolor2);}
+.feature-2w65J5.featurePremiumGuild-2KpCr6 { background-color: var(--bgcolor2);}
+.feature-2w65J5.featureUploadSize-2CAVFL { background-color: var(--bgcolor2);}
+.feature-2w65J5.featureGoLive-30cvVw { background-color: var(--bgcolor2);}
+.pageActions-1SVAnA {background-color: var(--bgcolor2);}
+.container-3baos1 { background-color: var(--bgcolor2);}
+.childWrapper-anI2G9 { background-color: var(--bgcolor2) !important;}
+.privateChannelsHeaderContainer-3NB1K1.container-2ax-kl {background-color: var(--bgcolor2);}
+.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 { background-color: var(--bgcolor2);}
+.itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.padded-302COx.interactive-3B9GmY { background-color: var(--bgcolor2);}
+.shinyButton-3uFlM-.button-1PXUl0.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN  { background-color: var(--bgcolor2);}
+.scrollableContainer-2NUZem.webkit-HjD9Er { background-color: var(--bgcolor2);}
+.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 { background-color: var(--bgcolor3);}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98 { background-color: var(--bgcolor2);}
+.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp { background-color: var(--bgcolor2);}
+.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp { background-color: var(--bgcolor2);}
+
+
+
+/* OLD SHITCODE, PLEASE IGNORE*/
 /* --bgcolor */
+/*
 .container-16j22k.fixClipping-3qAKRb { background-color: var(--bgcolor); }
 .tipTitle-GL9qAt { color: var(--bgcolor);}
 .tip-2cgoli { color: var(--bgcolor); }
@@ -64,8 +145,9 @@ $amogus: false;
 .vz-dashboard-section.vz-dashboard-home-section-features { background-color: var(--bgcolor);}
 .scroller-2LSbBU.auto-Ge5KZx.scrollerBase-289Jih.disableScrollAnchor-3V9UtP { background-color: var(--bgcolor);}
 .messageContainer-gbhlwo { background-color: var(--bgcolor);}
-
+*/
 /* --bgcolor2 */
+/*
 .searchBar-6Kv8R2 {background-color: var(--bgcolor2);}
 .childWrapper-anI2G9 { background-color: var(--bgcolor2) !important;}
 .scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih { background-color: var(--bgcolor2);}
@@ -80,7 +162,6 @@ $amogus: false;
 .privateChannelsHeaderContainer-3NB1K1.container-2ax-kl {background-color: var(--bgcolor2);}
 .feature-2w65J5.featureEmoji-3pTtR2 { background-color: var(--bgcolor2);}
 .feature-2w65J5.featureBadge-3ZA-Ca { background-color: var(--bgcolor2);}
-/*div.footer-1fjuF6 { background-color: var(--bgcolor2) !important;} */
 .feature-2w65J5.featureProfile-tTo0C- { background-color: var(--bgcolor2);}
 .feature-2w65J5.featurePremiumGuild-2KpCr6 { background-color: var(--bgcolor2);}
 .feature-2w65J5.featureUploadSize-2CAVFL { background-color: var(--bgcolor2);}
@@ -110,8 +191,9 @@ $amogus: false;
 .channelHeader-3Gd2xq { background-color: var(--bgcolor2);}
 .wrapper-2aW0bm { background-color: var(--bgcolor2);}
 .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih { background-color: var(--bgcolor2);}
-
+*/
 /* --bgcolor3 */
+/*
 .connectionOptionsWrapper-3KIj1Z { background-color: var(--bgcolor3);}
 .fieldList-21DyL8 { background-color: var(--bgcolor3);}
 .vz-sticky.vz-addons-list-sticky-bar { background-color: var(--bgcolor3);}
@@ -128,7 +210,9 @@ $amogus: false;
 .barButtonMain-3K-jeJ.barButtonBase-2uLO1z { background-color: var(--bgcolor3);}
 .barButtonAlt-mYL1lj.barButtonBase-2uLO1z { background-color: var(--bgcolor3);}
 .content-1LAB8Z.content-191BxG.thin-1ybCId.scrollerBase-289Jih { background-color: var(--bgcolor3);}
+*/
 /* Other shit */
+/*
 .mainContent-2h-GEV::before { display: none; }
 .icon-3N9Bhy { display: none; }
 .guildSeparator-33mFX6 { display: none;}
@@ -138,3 +222,4 @@ $amogus: false;
 .anchor-3Z-8Bb.anchorUnderlineOnHover-2ESHQB.statusLink-gFXhrL.links-3Ldd4A { display: none; }
 .content-3YMskv::before { display: none !important;}
 .children-19S4PO::after { display: none; }
+*/
