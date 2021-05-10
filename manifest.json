@@ -1,0 +1,9 @@
+{
+    "name": "The Nightowl",
+    "description": "A Discord theme for nightowls.",
+    "version": "1.0.0",
+    "author": "Kreato#5771",
+    "theme": "the-nightowl.scss",
+    "consent": ["ext_listing"],
+    "license": "LGPL-3.0-or-later"
+}
