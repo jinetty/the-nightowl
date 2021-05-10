@@ -22,5 +22,8 @@ Open your terminal/cmd. Go to the Vizality/Powercord's Themes folder, then clone
 ## pma
 The nightowl is also available on PMA, run `pma -S the-nightowl` to install it.
 
+# Screenshot(s)
+![screenshot](./assets/screenshot.png)
+
 # Credits
 Logo icon taken from [here](https://www.flaticon.com/free-icon/brush_891703?term=brush&page=1&position=59&page=1&position=59&related_id=891703&origin=tag#)
