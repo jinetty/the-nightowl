@@ -16,6 +16,7 @@ $amogus: false;
 $cia: false;
 $jetbrains-mono: true;
 $disable-stickers: false;
+$remove_help: true;
 
 /* Set your colors here. */
   :root {
@@ -26,6 +27,10 @@ $disable-stickers: false;
 
 @if $disable-stickers {
   img[src^='https://media.discordapp.net/stickers/'] { display: none;}
+}
+
+@if $remove_help {
+   #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div > div > div.chat-3bRxxu > section > div.toolbar-1t6TWx > a > div { display: none;}
 }
 
 @if $amogus {
