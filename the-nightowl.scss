@@ -25,6 +25,30 @@ $remove_help: true;
     --background-secondary: rgb(15, 15, 15);
     }
 
+// Some Editing from SeNCeR#5659
+/* .cozy-3raOZG:hover {
+  background-color: #111 !important;
+}
+.sidebar-2K8pFh {
+  //border-left: 1px solid #444;
+  margin-left: 2px;
+}
+.scroller-2LSbBU::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+.scroller-1Bvpku {
+  border-radius: 10px;
+}
+.autocomplete-1vrmpx {
+  background-color: #111 !important;
+}
+.expandedFolderBackground-1cujaW {
+  background-color: rgb(28, 28, 28);
+}
+.container-3baos1 {
+  background-color:rgba(0, 0, 0, 0.500) !important;
+} */
+
 @if $disable-stickers {
   img[src^='https://media.discordapp.net/stickers/'] { display: none;}
 }
@@ -68,13 +92,13 @@ code, .inlineCode-2ngu6Y, code *, .view-lines * {
 
 // --background-primary
 .peopleListItem-2nzedh,.nowPlayingColumn-2sl4cE,.peopleListItem-2nzedh,.button-1PXUl0.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN,.member-3-YXUe,.vz-dashboard-section.vz-dashboard-home-section-features,.vz-wave-divider-svg-path,.scroller-1d5FgU.vz-dashboard-scroller.auto-Ge5KZx.scrollerBase-289Jih { background-color: var(--background-primary);}
-
+.reactors-Blmlhw.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 { background-color: var(--background-primary) }
 // --bgcolor3
 .fieldList-21DyL8,.scroller-2hZ97C.thin-1ybCId.scrollerBase-289Jih,.vz-updater-top-section-header,.emptyChannelIcon-cc932w,.section-2gLsgF,.codeRedemptionRedirect-1wVR4b.card-3Qj_Yx,.content-1LAB8Z.container-1_ClKi.content-s2SEQO.thin-1ybCId.scrollerBase-289Jih,.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.paymentRowHeader-2sfDdN,.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0,.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.enableContainer-6E-puu,.activityUserPopout-2yItg2.activity-11LB_k,.paymentRow-2e7VM6.bottomDivider-1K9Gao,.content-1LAB8Z.thin-1ybCId.scrollerBase-289Jih,.footer-3mqk7D.hasSpoilers-1IRtQC,.vz-addon-card-content,.vz-sticky.vz-addons-list-sticky-bar,.topSectionPlaying-1J5E4n,.header-2Y0-A-,.upsellFooter-ZYsio_,.header-ykumBX,.header-QKLPzZ,.flex-1xMQg5.flex-1O1GKY.vertical-V37hAW.flex-1O1GKY.directionColumn-35P_nr.justifyCenter-3D2jYp.alignCenter-1dQNNs.noWrap-3jynv6.headerTop-3C2Zn0 { background-color: var(--bgcolor3);}
 
 // --background-secondary 
 .invite-18yqGF.container-o3RxSG,.description-1RsfgZ,.vz-commands-autocomplete.autocomplete-1vrmpx.autocomplete-3l_oCd,.scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih,.scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih ,.form-2fGMdU,.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.emojiSection-3Fb9ix,.circleIconButton-1QV--U,.feature-2w65J5.featureEmoji-3pTtR2,.body-3iLsc4.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2,.scrollableContainer-2NUZem.webkit-HjD9Er,.flex-1xMQg5.flex-1O1GKY.horizontalReverse-2eTKWD.horizontalReverse-3tRjY7.flex-1O1GKY.directionRowReverse-m8IjIq.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp,.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignStretch-DpGPf3.noWrap-3jynv6.footer-2gL1pp,flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6.header-1TKi98,.shinyButton-3uFlM-.button-1PXUl0.button-38aScr.lookInverted-2D7oAl.colorBrand-3pXr91.sizeMedium-1AC_Sl.grow-q77ONN,.itemCard-v9viV7.wrapper-3D2qGf.outer-1AjyKL.padded-302COx.interactive-3B9GmY,.privateChannelsHeaderContainer-3NB1K1.container-2ax-kl,.container-3baos1,.feature-2w65J5.featureBadge-3ZA-Ca,.pageActions-1SVAnA, .feature-2w65J5.featurePremiumGuild-2KpCr6,.feature-2w65J5.featureBadge-3ZA-Ca,.feature-2w65J5.featureGoLive-30cvVw, .feature-2w65J5.featureProfile-tTo0C-,.feature-2w65J5.featureUploadSize-2CAVFL { background-color: var(--background-secondary);}
-
+.scroller-1-nKid.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {background-color: var(--background-secondary)}
 /* importants */
 
 // Secondary
